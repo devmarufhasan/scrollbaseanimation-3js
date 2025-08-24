@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
 }
 
-html,
-body {
-    overflow: hidden;
+html {
+    background: #1e1a20;
 }
 
 .webgl {
@@ -22,7 +23,7 @@ body {
     position: relative;
     font-family: "Cabin", sans-serif;
     color: #ffeded;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 7vmin;
     padding-left: 10%;
     padding-right: 10%;
